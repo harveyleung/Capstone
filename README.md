@@ -34,7 +34,7 @@ Open another terminal window, run the following commands
 
 Deploy to rinkeby:
 
-Update the `truffle-config.js` file to reflect your infura settings for rinkeby
+Updated the `truffle-config.js` file to reflect the infura settings for rinkeby
 
 In a terminal window run :
 
