@@ -18,6 +18,6 @@
     "scrypt": "^6.0.3",
     "solc": "^0.5.2",
     "solc-js": "^0.5.2",
-    "truffle-hdwallet-provider": "^1.0.8"
+    "truffle-hdwallet-provider": "^1.0.5"
   }
 }
