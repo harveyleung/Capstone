@@ -46,6 +46,7 @@ verifier address = 0xfeBB2Ac6eDC9fcD0be63Ee3725eaa31517Df960C
 SolnSquareVerfifer contract address = 0xDA4E7b4DC98c1D467dF8C010A0a355b4B08b114b
 
 ###Opensea
+
 https://rinkeby.opensea.io/category/decentralizedhousingproductp8v2
 
 ABI is named "contract.abi" under the root directory 
