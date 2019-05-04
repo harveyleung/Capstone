@@ -25,7 +25,8 @@
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 //const mnemonic = '<MNEMONIC>';
-var mnemonic = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat";
+//var mnemonic = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat";
+var mnemonic = "order have purity clutch machine broken obscure mule shove ball shallow hungry";
 
 module.exports = {
   /**
@@ -50,6 +51,16 @@ module.exports = {
       port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
      },
+
+      rinkeby: {
+          provider: function() {
+              return new HDWalletProvider(mnemonic, 'https://rinkeby.infura.io/v3/bb3c78a0fc454010bed4805e1e696453')
+          },
+          network_id: 4,
+          skipDryRun: true
+         // gas: 4500000,
+          //gasPrice: 10000000000,
+      }
 
     // Another network with more advanced options...
     // advanced: {
@@ -82,8 +93,8 @@ module.exports = {
 
   // Set default mocha options here, use special reporters etc.
   mocha: {
-    // timeout: 100000
-      enableTimeouts: false
+     timeout: 100000
+     // enableTimeouts: false
   },
 
   // Configure your compilers
